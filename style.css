@@ -107,7 +107,7 @@ h2 {
 @media screen and (max-width : 472px) {
     .container {
         width: 100%;
-        padding: 1em;
-        gap: 0.5em;
+        display: flex;
+        flex-direction: column;
     }
 }
