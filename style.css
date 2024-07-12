@@ -92,3 +92,13 @@ h1 {
 	border: 1px dashed #888888;
 	background-color: #fbfbfb;
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width : 472px) {
+    .container {
+        width: 100%;
+        padding: 1em;
+        gap: 0.5em;
+    }
+}
