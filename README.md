@@ -6,7 +6,7 @@ Création des fonctionnalités de glisser-déposer en utilisant le HTML5, le CSS
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/glisser_deposer_app/
 
 ## Développez avec
 
