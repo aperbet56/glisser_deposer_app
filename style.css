@@ -93,6 +93,10 @@ h1 {
 	background-color: #fbfbfb;
 }
 
+.footer__span {
+    font-size: 1.5rem;
+}
+
 /**** Responsive design ****/
 
 @media screen and (max-width : 472px) {
