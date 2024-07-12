@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; ;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd700;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1, .footer__span {
+    text-align: center;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+.main__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 1.1em;
+}
+
+.container {
+	background-color: #ffffff;
+	width: 98%;
+	max-width: 500px;
+	padding: 1.5em;
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1em;
+	border: 1px solid #555555;
+}
+
+.list {
+	border: 1px solid #bbbbbb;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	padding: 0.5em;
+	min-height: 250px;
+}
+
+.item {
+	padding: 0.5em;
+	border: 1px solid #bbbbbb;
+	border-radius: 0.5em;
+	font-size: 1rem;
+	height: max-height;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	overflow: hidden;
+}
+
+.item img {
+    width: 25px;
+	border-radius: 50%;
+}
+
+.item.drag-active {
+	border: 1px solid #ffd700;
+	background-color: #ffffff;
+}
+
+.list.hovered {
+	border: 1px dashed #888888;
+	background-color: #fbfbfb;
+}
