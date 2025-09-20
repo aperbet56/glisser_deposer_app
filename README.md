@@ -1,5 +1,7 @@
 ## GLISSER DEPOSER APP (DRAG AND DROP)
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Création des fonctionnalités de glisser-déposer en utilisant le HTML5, le CSS3 et leJavaScript. J'ai utilisé l'API HTML glisser-déposer avec les écouteurs d'événements dragStart, dragEnd, dragEnter, dragOver, dragLeave et drop pour créer cette interface utilisateur.
@@ -8,7 +10,7 @@ Création des fonctionnalités de glisser-déposer en utilisant le HTML5, le CSS
 
 Lien vers le projet : https://aperbet56.github.io/glisser_deposer_app/
 
-## Développez avec
+## Porjet développé avec
 
 - Utilisation des balises sémantiques HTML5
 - CSS3
